@@ -121,7 +121,37 @@ function showQuiz() {
 const questions = [
   {q:"Que signifie LSSD ?", choices:["Los Santos Sheriff Department","Los Santos Security Division","Los Santos Service Department"], correct:"Los Santos Sheriff Department"},
   {q:"Dans quel comté opère le LSSD ?", choices:["Los Santos","Blaine County","Vice City"], correct:"Blaine County"}
-  // Ajoute ici tes 28 autres questions
+  {q:"Que signifie LSSD ?", choices:["Los Santos Sheriff Department","Los Santos Security Division","Los Santos Service Department"], correct:"Los Santos Sheriff Department"},
+  {q:"Dans quel comté opère le LSSD ?", choices:["Los Santos","Blaine County","Vice City"], correct:"Blaine County"},
+  {q:"Quel grade est le plus élevé dans le LSSD ?", choices:["Shérif","Adjoint","Capitaine"], correct:"Shérif"},
+  {q:"Quel équipement est obligatoire pour chaque patrouille ?", choices:["Taser uniquement","Arme de service et radio","Véhicule personnel"], correct:"Arme de service et radio"},
+  {q:"Quelle est la couleur des uniformes du LSSD ?", choices:["Bleu marine","Noir","Vert"], correct:"Bleu marine"},
+  {q:"Quel code radio signifie 'Tout est clair' ?", choices:["10-4","10-20","10-7"], correct:"10-4"},
+  {q:"Quand est-il autorisé d'utiliser la force ?", choices:["Pour n’importe quelle raison","Uniquement RP et justifiée","Jamais"], correct:"Uniquement RP et justifiée"},
+  {q:"Que signifie 'Backup' ?", choices:["Demander un renfort","Faire un rapport","Se mettre en retrait"], correct:"Demander un renfort"},
+  {q:"Que doit faire un agent avant de commencer le service ?", choices:["Se connecter au forum","Être en tenue et équipé correctement","Aller directement en patrouille"], correct:"Être en tenue et équipé correctement"},
+  {q:"Quel véhicule est utilisé pour une patrouille standard ?", choices:["Voiture personnelle","Véhicule de service","Moto civile"], correct:"Véhicule de service"},
+  {q:"Que signifie '10-20' ?", choices:["Localisation","Tout va bien","Fin de patrouille"], correct:"Localisation"},
+  {q:"Qu'est-ce que le Metagaming ?", choices:["Respecter le RP","Utiliser des informations hors RP","Demander un grade"], correct:"Utiliser des informations hors RP"},
+  {q:"Qu'est-ce que le Powergaming ?", choices:["Forcer un RP irréaliste","Patrouiller efficacement","Respecter le règlement"], correct:"Forcer un RP irréaliste"},
+  {q:"Que doit contenir un rapport d’intervention ?", choices:["Seulement les arrestations","Toutes les interventions importantes","Seulement les accidents"], correct:"Toutes les interventions importantes"},
+  {q:"Qui peut donner des ordres aux adjoints ?", choices:["Tout le monde","Les supérieurs hiérarchiques","Les civils"], correct:"Les supérieurs hiérarchiques"},
+  {q:"Comment un agent doit-il communiquer sur la radio ?", choices:["Clair et précis","Rapidement et sans détails","Avec des insultes"], correct:"Clair et précis"},
+  {q:"Quand est-il possible de menotter une personne ?", choices:["Uniquement RP et cohérent","Toujours","Jamais"], correct:"Uniquement RP et cohérent"},
+  {q:"Quelle est la priorité lors d'une intervention ?", choices:["La rapidité","La sécurité","Les civils seulement"], correct:"La sécurité"},
+  {q:"Qu'est-ce qu'une patrouille RP cohérente ?", choices:["Se promener sans but","Respecter les règles et le RP","Ignorer les appels"], correct:"Respecter les règles et le RP"},
+  {q:"Qu'est-ce qui est strictement interdit en RP ?", choices:["Prendre une pause","Metagaming et Powergaming","Demander un grade"], correct:"Metagaming et Powergaming"},
+  {q:"Que doit faire un agent hors service ?", choices:["Ignorer le RP","Représenter une image sérieuse du LSSD","Tout est permis"], correct:"Représenter une image sérieuse du LSSD"},
+  {q:"Quel outil est utilisé pour enregistrer les interventions ?", choices:["Téléphone personnel","Radio uniquement","Rapport officiel"], correct:"Rapport officiel"},
+  {q:"Quand un agent peut-il utiliser un Taser ?", choices:["N’importe quand","Uniquement RP","Jamais"], correct:"Uniquement RP"},
+  {q:"Qui est responsable de la discipline dans le LSSD ?", choices:["Les civils","La hiérarchie du LSSD","Chaque agent individuellement"], correct:"La hiérarchie du LSSD"},
+  {q:"Que doit faire un agent en cas de poursuite ?", choices:["Ignorer la sécurité","Respecter les règles RP et sécurité","Arrêter immédiatement"], correct:"Respecter les règles RP et sécurité"},
+  {q:"Qu'est-ce qu'un engagement total ?", choices:["Respecter toutes les règles RP et internes","Se connecter tous les jours","Avoir un grade élevé"], correct:"Respecter toutes les règles RP et internes"},
+  {q:"Quelle est la conséquence d’un manquement au règlement ?", choices:["Aucune","Rétrogradation ou exclusion","Avertissement uniquement"], correct:"Rétrogradation ou exclusion"},
+  {q:"Quand demander un renfort ?", choices:["Quand on se sent en danger","Jamais","Seulement après l’arrestation"], correct:"Quand on se sent en danger"},
+  {q:"Quel est l'objectif principal du LSSD ?", choices:["Respecter la loi et RP","Amuser les civils","Faire la course"], correct:"Respecter la loi et RP"},
+  {q:"Que signifie '10-7' ?", choices:["Fin de service","Tout est clair","En patrouille"], correct:"Fin de service"},
+  {q:"Que doit contenir une demande de grade ?", choices:["Nom, rôle demandé, matricule","Seulement le nom","Nom et ancienneté"], correct:"Nom, rôle demandé, matricule"}
 ];
 
 function initQuiz() {
